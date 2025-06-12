@@ -59,20 +59,25 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/youcndoitbro")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
-            InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/youcndoitbro"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/sujalchavdaa"),
         ],
     ]
 )
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://i.ibb.co/h1h6Pmfq/e31f7cff3217.jpg",
+    "https://i.ibb.co/jP6YckPQ/59bc8089c3fe.jpg",
+    "https://i.ibb.co/spJjxxkx/57b5c270b686.jpg",
+    "https://i.ibb.co/mFv7r6H4/d997e7637c2a.jpg",
+    "https://i.ibb.co/m5K9PqZC/d321fa575ea7.jpg",
+    
+    
     # Add more image URLs as needed
 ]
 
@@ -284,7 +289,7 @@ async def restart_handler(_, m):
             f"__**Your User id** __- `{m.chat.id}`</blockquote>\n\n"
         )
     else:
-        await m.reply_text("🚦**STOPPED**🚦", True)
+        await m.reply_text("🚦**🆂︎🆃︎🅾︎🅿︎**🚦", True)
         os.execl(sys.executable, sys.executable, *sys.argv)
         
 
@@ -331,7 +336,7 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"If you face any problem contact -  [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎](https://t.me/saini_contact_bot)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [ՏႮᎫᎪᏞᏰϴ𝐓](https://t.me/youcndoitbro)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
@@ -354,7 +359,7 @@ async def start(bot, m: Message):
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
            f"🚀 You are not subscribed to any plan yet!\n\n"
-           f"<blockquote>💵 Monthly Plan: free</blockquote>\n\n"
+           f"<blockquote>💵 Monthly Plan: 50💵</blockquote>\n\n"
            f"If you want to buy membership of the bot, feel free to contact the Bot Admin.\n", disable_web_page_preview=True, reply_markup=keyboard
     )
 
@@ -412,7 +417,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f"💥 𝘽𝙊𝙏𝙎 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n"
+        f"💥𝓑𝓞𝓣 𝓒𝓞𝓜𝓜𝓐𝓝𝓓𝓢\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
@@ -830,7 +835,7 @@ async def text_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"<pre><code>**🔹Processing your link...\n🔁Please wait...⏳**</code></pre>")
     await m.delete()
 
-    await editable.edit(f"╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`{CREDIT}`]⚡⌋━━➣ ")
+    await editable.edit(f"╭━━━━❰𝐸𝒩𝒯𝐸𝑅 𝑅𝐸𝒱𝒪𝐿𝒰𝒯𝐼𝒪𝒩❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`{CREDIT}`]⚡⌋━━➣ ")
     input2: Message = await bot.listen(editable.chat.id, filters=filters.text & filters.user(m.from_user.id))
     raw_text2 = input2.text
     quality = f"{raw_text2}p"
